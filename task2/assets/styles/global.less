@@ -1,0 +1,19 @@
+@import "variables";
+
+body {
+  background: @bodyBgColor;
+  color: @textColor;
+  margin: 0%;
+  font-family: Open Sans;
+  a{
+    color: @textColor;
+    &:hover {
+      color: darken(@textColor, 50%);
+    }
+  }
+  //:before{
+  //  content: "";
+  //  background-image: @headerPicture;
+  //}
+}
+
